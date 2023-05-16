@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat ;
+}
+nav{
+    background: #052F5F;
+    height: 70px;
+    width: 100%;
+    
+
+}
+.logo img{
+    float: left;
+    height: 70px;
+    padding: 5px;
+    margin: 0;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+}
+nav .list{
+    float: right;
+    margin-right: 20px;
+
+}
+nav .list li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#signup{
+    border-width: 1px;
+    
+}
+.ahero{
+    display: flex;
+    background: url(img/hero\ section\ background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.ahero .contenth{
+    margin: auto;
+}
+
+.ahero h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 400;
+    -webkit-text-stroke: 2px  #052F5F;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.ahero a{
+   
+    display: inline-block;
+    background: #052F5F;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #052F5F;
+    transition: all 0.3s ease;
+}
+
+.contentc h1{
+    color: rgb(59, 54, 54);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.contentc .grid{
+    
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    
+}
+
+.contentc .card img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    padding: 10%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.contentc .card .card-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: white;
+    
+}
+.card-content h3{
+    margin: 3px;
+    text-align: center;
+}
+.card-content p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.meals{
+background-color:#282d31;
+margin-top: 50px;
+
+}
+
+.contentm{
+    padding: 50px;
+}
+#h1m{
+    
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+.contentm .gridm{
+    
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    
+}
+.content .grid .card *{
+    box-sizing: border-box;
+}
+.cardm{
+    background: #fafafa;
+    box-shadow: 2px 2px 6px 0px rgba(230, 229, 229, 0.3);
+}
+.cardm img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    
+    padding: 7%;
+
+}
+.cardm .card-contentm{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 0% 7% 7% 7%;
+    
+    
+}
+.card-contentm h3{
+    margin: 3px;
+    text-align: center;
+}
+.card-contentm p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+  
+
+
+  .button input{
+    background-color: #052F5F;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+	font-size: 1.2em;
+	color: #fff;
+}
+.button input:hover{
+    background-color: #052F5F;
+}
+
+
+/* footer section */
+
+.footer-distributed{
+	background: #052F5F;
+	
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+
+
+.footer-distributed .footer-left{
+	float: left;
+}
+.footer .footer-distributed .footer-left #footer-logo a img{
+    display: block;
+    width: 100%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 2;
+	text-decoration: none;
+	color:  white;
+    
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #005377;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+    .ahero .contenth {
+        padding: 5%;
+    }
+    .ahero .contenth h1{
+        font-size: 55px;
+       
+    }
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+    .checkbtn{
+        display: block;
+    }
+ul{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 69px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    
+    display: block;
+    width: 100%;
+}
+nav ul li a{
+
+    font-size: 20px;
+
+}
+#check:checked ~ul{
+    left: 0;
+}
+.ahero .contenth {
+    padding: 5%;
+}
+.ahero .contenth h1{
+    font-size: 45px;
+   
+}
+
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
