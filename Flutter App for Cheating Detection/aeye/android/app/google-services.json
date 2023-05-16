@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3153971439",
+    "project_id": "matrix-v1-9e7ab",
+    "storage_bucket": "matrix-v1-9e7ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3153971439:android:194a442e3454970edf731a",
+        "android_client_info": {
+          "package_name": "com.matrix.aeye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3153971439-jicv162svfp2ldp7ic3b6s9ld5m7gf58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH-2IYgnALQNLXB-HjINTIgT_LVcXI8fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3153971439-jicv162svfp2ldp7ic3b6s9ld5m7gf58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
