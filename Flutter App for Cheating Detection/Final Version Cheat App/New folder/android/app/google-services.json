@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258574371181",
+    "project_id": "cheating-detector-2e34d",
+    "storage_bucket": "cheating-detector-2e34d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258574371181:android:852574d236eeee1183b264",
+        "android_client_info": {
+          "package_name": "com.cheating.detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258574371181-2ebkv54432k9kmn3tk3tpbvksi2089uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMg1CF6gWzb9s76o_Ic0Vfwak0lJbIIPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258574371181-2ebkv54432k9kmn3tk3tpbvksi2089uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

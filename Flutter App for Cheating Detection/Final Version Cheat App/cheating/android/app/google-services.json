@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "258574371181",
+    "project_id": "cheating-detector-2e34d",
+    "storage_bucket": "cheating-detector-2e34d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258574371181:android:72509ce19919b01a83b264",
+        "android_client_info": {
+          "package_name": "com.example.cheating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258574371181-2ebkv54432k9kmn3tk3tpbvksi2089uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMg1CF6gWzb9s76o_Ic0Vfwak0lJbIIPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258574371181-2ebkv54432k9kmn3tk3tpbvksi2089uo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "258574371181-dr46faeoke1sn2jrk2kdvgi3qq76torq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.matrix.aeye"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
